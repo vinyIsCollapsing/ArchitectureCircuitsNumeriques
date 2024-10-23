@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 24 15:51:03 2024
+# Process ID: 1904
+# Current directory: P:/ArchitectureCircuitsNumeriques/projectAdder4Bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13836 P:\ArchitectureCircuitsNumeriques\projectAdder4Bits\projectAdder4Bits.xpr
+# Log file: P:/ArchitectureCircuitsNumeriques/projectAdder4Bits/vivado.log
+# Journal file: P:/ArchitectureCircuitsNumeriques/projectAdder4Bits\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project P:/ArchitectureCircuitsNumeriques/projectAdder4Bits/projectAdder4Bits.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'P:/ArchitectureCircuitsNumeriques/projectAdder4Bits/projectAdder4Bits.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.738 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Sep 24 15:51:25 2024] Launched synth_1...
+Run output will be captured here: P:/ArchitectureCircuitsNumeriques/projectAdder4Bits/projectAdder4Bits.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 24 15:53:12 2024...
